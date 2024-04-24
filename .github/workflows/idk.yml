@@ -1,0 +1,8 @@
+name: Something
+on: {push: {branches: [trunk]}}
+jobs:
+  something_else:
+    runs-on: macos-latest
+    steps:
+      - name: won
+        run: exec ./run
