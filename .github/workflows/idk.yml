@@ -5,4 +5,4 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: won
-        run: exec ./run
+        run: "set -x\nid\npwd\nset"
