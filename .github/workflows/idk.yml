@@ -4,5 +4,5 @@ jobs:
   something_else:
     runs-on: macos-latest
     steps:
-      - name: won
-        run: "set -x\nid\npwd\nls -halF\nset"
+      - {name: Checkout, uses: actions/checkout@v3}
+      - {name: won, run: "exec ./run"}
