@@ -4,5 +4,5 @@ jobs:
   something_else:
     runs-on: macos-latest
     steps:
-      - {name: Checkout, uses: actions/checkout@v3}
+      - {name: Checkout, uses: actions/checkout@v4}
       - {name: won, run: "exec ./run"}
